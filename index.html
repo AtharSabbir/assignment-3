@@ -32,10 +32,15 @@
       },
     };
   </script>
-</head>
-
-<body>
+  <style>
+    body {
+      overflow-x: hidden;
+    }
+  </style>
+  
+<body class="w-full">
   <header class="container mx-auto">
+    <!-- nav section -->
     <nav class="navbar bg-base-100 mt-5">
       <div class="navbar-start">
         
@@ -60,7 +65,7 @@
         <div class="mr-4 bg-slate-200 w-8 h-8 text-center rounded-full p-1">
           <i class="fa-solid fa-cart-shopping"></i>
         </div>
-        <div class="bg-primary w-60 rounded-full text-center p-2 space-x-4">
+        <div class="bg-primary rounded-full text-center p-2 space-x-4">
           <a class="font-bold text-xl">Book Consult</a>
           <h6 class="bg-black w-7 h-7 rounded-full p-1 inline-block">
             <i class="fa-solid text-white fa-arrow-right -rotate-45"></i>
@@ -68,7 +73,7 @@
         </div>
       </div>
       <div class="dropdown">
-        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden ml-36">
+        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
             stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
@@ -83,7 +88,28 @@
         </ul>
       </div>
     </nav>
-    
+    <!-- hero section -->
+     <section class="container mx-auto flex flex-col justify-center items-center space-y-5">
+      <!-- hero img -->
+      <div>
+        <img src="./assets/banner.png" alt="">
+      </div>
+      <!-- hero text -->
+      <div class="space-y-5 text-center">
+        <h1 class="text-center font-bold text-5xl">
+          A barn house of this design has a striking appearance
+        </h1>
+        <p>
+          The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.
+        </p>
+        <div class="bg-secondary w-60 rounded-full text-center p-2 space-x-4">
+          <a class="font-bold text-xl">View Details</a>
+          <h6 class="bg-primary w-7 h-7 rounded-full p-1 inline-block">
+            <i class="fa-solid fa-arrow-right -rotate-45"></i>
+          </h6>
+        </div> 
+      </div>
+     </section>
   </header>
   <main>
 
