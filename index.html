@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assignment 3</title>
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+  <!-- Tailwind CSS and DaisyUI CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Tailwind CSS Configuration -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#ABEF5F',
+            secondary: '#E5F3D6',
+          },
+          fontFamily: {
+            Manrope: ['Manrope', 'sans-serif'],
+          },
+        },
+      },
+    };
+  </script>
+</head>
+
+<body>
+  <header class="container mx-auto">
+    <nav class="navbar bg-base-100 mt-5">
+      <div class="navbar-start">
+        
+        <h6 class="bg-primary rounded-full w-10 text-center p-2">
+          <i class="fa-solid fa-arrow-right -rotate-45"></i>
+        </h6>
+        <a class="font-bold text-3xl ml-1">Rinterio</a>
+      </div>
+      <div class="navbar-center hidden lg:flex">
+        <ul class="menu menu-horizontal px-1">
+          <li><a>Home</a></li>
+          <li><a>Services</a></li>
+          <li><a>Portfolio</a></li>
+          <li><a>Blogs</a></li>
+          <li><a>Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="navbar-end hidden lg:flex">
+        <div class="mr-4 bg-slate-200 w-8 h-8 text-center rounded-full p-1">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div class="mr-4 bg-slate-200 w-8 h-8 text-center rounded-full p-1">
+          <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+        <div class="bg-primary w-60 rounded-full text-center p-2 space-x-4">
+          <a class="font-bold text-xl">Book Consult</a>
+          <h6 class="bg-black w-7 h-7 rounded-full p-1 inline-block">
+            <i class="fa-solid text-white fa-arrow-right -rotate-45"></i>
+          </h6>
+        </div>
+      </div>
+      <div class="dropdown">
+        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden ml-36">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+            stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+          </svg>
+        </div>
+        <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+          <li><a>Home</a></li>
+          <li><a>Services</a></li>
+          <li><a>Portfolio</a></li>
+          <li><a>Blogs</a></li>
+          <li><a>Contact Us</a></li>
+        </ul>
+      </div>
+    </nav>
+    
+  </header>
+  <main>
+
+  </main>
+  <footer>
+
+  </footer>
+</body>
+
+</html>
